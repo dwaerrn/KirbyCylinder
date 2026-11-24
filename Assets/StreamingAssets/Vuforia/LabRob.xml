@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <CylinderTarget name="PaperCylinder" sideLength="0.105000"/>
+        <ImageTarget name="100UAH" size="0.142000 0.074894"/>
+        <ImageTarget name="Cuboid.Right" size="0.095000 0.025000"/>
+        <ImageTarget name="Cuboid.Left" size="0.095000 0.025000"/>
+        <ImageTarget name="Cuboid.Top" size="0.050000 0.095000"/>
+        <ImageTarget name="Cuboid.Front" size="0.050000 0.025000"/>
+        <ImageTarget name="Cuboid.Back" size="0.050000 0.025000"/>
+        <ImageTarget name="Cuboid.Bottom" size="0.050000 0.095000"/>
+        <MultiTarget name="Cuboid">
+            <Part name="Cuboid.Left" translation="-0.02500000037252903 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="Cuboid.Right" translation="0.02500000037252903 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="Cuboid.Front" translation="0 0 0.04749999940395355" rotation="AD: 1 0 0 0"/>
+            <Part name="Cuboid.Back" translation="0 0 -0.04749999940395355" rotation="AD: 0 1 0 180"/>
+            <Part name="Cuboid.Top" translation="0 0.012500000186264515 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="Cuboid.Bottom" translation="0 -0.012500000186264515 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
